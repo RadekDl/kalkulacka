@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4e05822-bd83-4db1-98fa-b0d09568f8ca" name="Changes" comment="kalkulačka&#10;&#10;založení kalkulačky">
+    <list default="true" id="b4e05822-bd83-4db1-98fa-b0d09568f8ca" name="Changes" comment="kalkulačka&#10;&#10;while výpočet switch">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/radek/VstupProKalkulacku.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/radek/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/radek/Main.java" afterDir="false" />
     </list>
@@ -44,19 +45,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "/home/tatka/IdeaProjects/kalkulacka/src/main/java/com/radek/Main.java",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/home/tatka/IdeaProjects/kalkulacka/src/main/java/com/radek/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
+}</component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="b4e05822-bd83-4db1-98fa-b0d09568f8ca" name="Changes" comment="" />
@@ -69,6 +70,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="kalkulačka&#10;&#10;založení kalkulačky" />
-    <option name="LAST_COMMIT_MESSAGE" value="kalkulačka&#10;&#10;založení kalkulačky" />
+    <MESSAGE value="kalkulačka&#10;&#10;while výpočet switch" />
+    <option name="LAST_COMMIT_MESSAGE" value="kalkulačka&#10;&#10;while výpočet switch" />
   </component>
 </project>
