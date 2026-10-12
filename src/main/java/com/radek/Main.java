@@ -9,18 +9,13 @@ public class Main {
             if (a == null) {
                 break;
             }
-            char operator = vstup.nactiOperator();
+            Operace operace = vstup.nactiOperator();
             double b = vstup.nactiDruheCislo();
 
             Vypocet vypocet = new Vypocet(a, b);
 
             try {
-                switch (operator) {
-                    case '+' -> System.out.println("Výsledek: " + vypocet.scitani());
-                    case '-' -> System.out.println("Výsledek: " + vypocet.rozdil());
-                    case '*' -> System.out.println("Výsledek: " + vypocet.nasobeni());
-                    case '/' -> System.out.println("Výsledek: " + vypocet.deleni());
-                }
+                System.out.println("Výsledek: " + vypocet.vypocitej(operace));
             } catch (ArithmeticException e) {
                 System.out.println("Chyba: " + e.getMessage());
             }

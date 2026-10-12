@@ -36,6 +36,15 @@ public class Vypocet {
         return vysledek;
     }
 
+    public double vypocitej(Operace operace) {
+        return switch (operace) {
+            case SCITANI -> scitani();
+            case ROZDIL -> rozdil();
+            case NASOBENI -> nasobeni();
+            case DELENI -> deleni();
+        };
+    }
+
 
 
 }

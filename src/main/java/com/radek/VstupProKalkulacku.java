@@ -32,14 +32,16 @@ public class VstupProKalkulacku {
         }
     }
 
-    public char nactiOperator() {
+    public Operace nactiOperator() {
         while (true) {
             System.out.print("zadej operátor (+ - * /): ");
             String vstup = sc.next();
-            if (vstup.length() == 1 && "+-*/".indexOf(vstup.charAt(0)) >= 0) {
-                return vstup.charAt(0);
+            try {
+                return Operace.zeSymbolu(vstup.charAt(0));
+
+            } catch (IllegalArgumentException e) {
+                System.out.println(e.getMessage());
             }
-            System.out.println("neznámý operátor, zkus znovu");
         }
     }
 }
