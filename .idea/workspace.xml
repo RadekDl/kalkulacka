@@ -4,12 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b4e05822-bd83-4db1-98fa-b0d09568f8ca" name="Changes" comment="kalkulačka&#10;&#10;vytvoření třídy Vstup pro kalkulačku a úprava třídy main aby volala jen metody">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/radek/Operace.java" afterDir="false" />
+    <list default="true" id="b4e05822-bd83-4db1-98fa-b0d09568f8ca" name="Changes" comment="kalkulačka&#10;&#10;předělání na enum">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/radek/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/radek/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/radek/VstupProKalkulacku.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/radek/VstupProKalkulacku.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/radek/Vypocet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/radek/Vypocet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +82,7 @@
     <MESSAGE value="kalkulačka&#10;&#10;založení kalkulačky" />
     <MESSAGE value="kalkulačka&#10;&#10;while výpočet switch" />
     <MESSAGE value="kalkulačka&#10;&#10;vytvoření třídy Vstup pro kalkulačku a úprava třídy main aby volala jen metody" />
-    <option name="LAST_COMMIT_MESSAGE" value="kalkulačka&#10;&#10;vytvoření třídy Vstup pro kalkulačku a úprava třídy main aby volala jen metody" />
+    <MESSAGE value="kalkulačka&#10;&#10;předělání na enum" />
+    <option name="LAST_COMMIT_MESSAGE" value="kalkulačka&#10;&#10;předělání na enum" />
   </component>
 </project>
